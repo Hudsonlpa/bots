@@ -44,7 +44,7 @@ const int numberOfConsecutiveReportsWithAlreadyCoveredCoordinatesToEndCycle = 50
 
 const int waitForReportListButtonTimespanMaxSeconds = 120;
 const int inGameDelaySeconds = 8;
-const int cycleDurationMaxSeconds = 60 * 40;
+const int cycleDurationMaxSeconds = 60 *20;
 
 
 /*

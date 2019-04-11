@@ -35,15 +35,15 @@ const int breakBetweenCycleDurationMinSeconds = 60 * 60;
 //	Upper limit of a random additional time for breaking between farming cycles.
 const int breakBetweenCycleDurationRandomAdditionMaxSeconds = 60 * 20;
 
-const int numberOfFarmCyclesToRepeatMin = 1;
+const int numberOfFarmCyclesToRepeatMin = 9999;
 
 const int numberOfFarmCyclesToRepeatRandomAdditionMax = 0;
 
 //	The bot ends a farming cycle when it has seen this many reports in a row with already covered coordinates of attacking and defending villages.
-const int numberOfConsecutiveReportsWithAlreadyCoveredCoordinatesToEndCycle = 30;
+const int numberOfConsecutiveReportsWithAlreadyCoveredCoordinatesToEndCycle = 50;
 
 const int waitForReportListButtonTimespanMaxSeconds = 120;
-const int inGameDelaySeconds = 10;
+const int inGameDelaySeconds = 8;
 const int cycleDurationMaxSeconds = 60 * 40;
 
 
